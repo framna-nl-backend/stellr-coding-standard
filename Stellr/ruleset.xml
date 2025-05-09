@@ -148,4 +148,13 @@
       <property name="searchAnnotations" value="true"/>
     </properties>
   </rule>
+
+  <rule ref="SlevomatCodingStandard.Variables.UnusedVariable">
+    <properties>
+      <property name="ignoreUnusedValuesWhenOnlyKeysAreUsedInForeach" value="true"/>
+    </properties>
+  </rule>
+  <rule ref="SlevomatCodingStandard.Variables.UselessVariable"/>
+
+  <rule ref="SlevomatCodingStandard.ControlStructures.EarlyExit"/>
 </ruleset>
