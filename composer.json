@@ -1,6 +1,6 @@
 {
-    "name": "lunr/coding-standard",
-    "description": "Lunr Coding Standard for PHP_CodeSniffer",
+    "name": "stellr/coding-standard",
+    "description": "Stellr Coding Standard for PHP_CodeSniffer",
     "license": "MIT",
     "type": "phpcodesniffer-standard",
     "keywords": [ "phpcs", "dev" ],
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lunr\\Sniffs\\": "Lunr/Sniffs/"
+            "Stellr\\Sniffs\\": "Stellr/Sniffs/"
         }
     }
 }
